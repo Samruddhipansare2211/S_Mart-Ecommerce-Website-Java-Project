@@ -86,18 +86,19 @@ The application is built using Java Spring Boot with a Thymeleaf-based frontend 
 - Git
 
 ### Steps
+```bash
 git clone https://github.com/your-username/smart-ecommerce-project.git  
 cd smart-ecommerce-project  
 mvn clean install  
 
-### Update application.properties:
-
-spring.datasource.url=jdbc:mysql://localhost:3306/ecommerce_db  
-spring.datasource.username=root  
-spring.datasource.password=your_password  
+### Step 2: Configure Database
+```bash
+spring.datasource.url=jdbc:mysql://localhost:3306/ecommerce_db
+spring.datasource.username=root
+spring.datasource.password=your_password
 
 ### Run application:
-
+```bash
 mvn spring-boot:run  
 
 Access:
